@@ -5,7 +5,8 @@
   "description": "Backend da aplicação desenvolvida na next level week setup da rocketseat.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "vercel-build": "npx prisma migrate deploy"
   },
   "keywords": [],
   "license": "ISC",
