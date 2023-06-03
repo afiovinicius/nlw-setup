@@ -13,7 +13,7 @@ export async function appRoutes(app: FastifyInstance) {
   // API Running
 
   app.get("/", async () => {
-    return "API Running";
+    return "API Starting";
   });
 
   // Habits
